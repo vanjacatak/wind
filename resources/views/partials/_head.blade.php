@@ -1,20 +1,19 @@
+<meta charset="utf-8">
+<title>Wind Watersports @yield('title')</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Wind Watersports @yield('title')</title> <!-- CHANGE THIS TITLE FOR EVERY PAGE! -->
+  <!-- Bootsrap -->
+<link rel="stylesheet" href="css/main/bootstrap.min.css">
 
-    {{ Html::style('css/main/main.css') }}
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-            crossorigin="anonymous">
-    {{ Html::style('css/app.css') }}
+<!-- Font awesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
 
-            <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+<!-- Template main Css -->
+{{ Html::style('css/main/app.css') }}
+
+  <!-- Modernizr -->
+<script src="js/modernizr-2.6.2.min.js"></script>
