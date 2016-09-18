@@ -10,24 +10,26 @@
 
     <div class="container">
 
+      <?php //todo: Kada service bude gotov onda ćemo smanjiti broj rijeci tkao da se nevidi cijeli text, a link na
+      //todo: stranicu o servicu ce biti pod "Read More"! ?>
       <div class="row">
 
-        <h2 class="title-style-1">Our Services<span class="title-under"></span></h2>
+        <h2 class="title-style-1"><strong>Our Services</strong><span class="title-under"></span></h2>
 
         <div class="col-md-4 col-sm-12 home-info">
 
           <div class="row">
+            <h3 class="title-style-3"><strong>Parasailing</strong></h3>
             <div class="col-md-12 col-sm-4 animate-onscroll fadeIn">
-              <img src="images/parasail1.jpg" class="img-responsive img-rounded" alt="">
+              <img src="images/services/mala7.jpg" class="img-responsive img-rounded" alt="">
             </div>
 
             <div class="col-md-12 col-sm-8">
               <div class="test">
-                Plaid mumblecore mustache portland, blog shabby chic PBR&B craft beer snackwave pickled fingerstache umami
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...sdsd
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                <a>Read More</a>
+                Baška is one of the most beatiful places on Croatian coast with its extraordinary landscape and nature.
+                The best way to experience the bay is to fly above it, where you can see everything from the bird's eye view.
+                The calmness, the quietness and the amazing view is the best way to relax during your holiday.
+                {{--<a>Read More</a>--}}
               </div>
             </div>
           </div>
@@ -37,17 +39,18 @@
         <div class="col-md-4 col-sm-12 home-info">
 
           <div class="row">
+            <h3 class="title-style-3"><strong>Watersports</strong></h3>
             <div class="col-md-12 col-sm-4 animate-onscroll fadeIn">
-              <img src="images/parasail1.jpg" class="img-responsive img-rounded" alt="">
+              <img src="images/services/mala8.jpg" class="img-responsive img-rounded" alt="">
             </div>
 
             <div class="col-md-12 col-sm-8">
               <div class="test">
-                Plaid mumblecore mustache portland, blog shabby chic PBR&B craft beer snackwave pickled fingerstache umami
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...sdsd
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                <a>Read More</a>
+                Summer vacation means trying out sea related activities, and it is impossible to imagine a seaside summer
+                resort without water sports such as tubes, couch and mattress. Different kinds of tubes give you different
+                adrenaline rides. For those who are not fans of extreme sports there is couch, while tubes and mattress
+                are made for the adrenaline lovers.
+                {{--<a>Read More</a>--}}
               </div>
             </div>
           </div>
@@ -57,17 +60,18 @@
         <div class="col-md-4 col-sm-12 home-info">
 
           <div class="row">
+            <h3 class="title-style-3"><strong>Parasailing equipment</strong></h3>
             <div class="col-md-12 col-sm-4 animate-onscroll fadeIn">
-              <img src="images/parasail1.jpg" class="img-responsive img-rounded" alt="">
+              <img src="images/services/mala6.jpg" class="img-responsive img-rounded" alt="">
             </div>
 
             <div class="col-md-12 col-sm-8">
               <div class="test">
-                Plaid mumblecore mustache portland, blog shabby chic PBR&B craft beer snackwave pickled fingerstache umami
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...sdsd
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                keffiyeh. Coloring book glossier woke scenester blue bottle. blaballbalb lab alb alb lab alb abalba...
-                <a>Read More</a>
+                After years and years of experience, we can say that we have learned a lot, which made us see the room
+                for improvements in the parasailing area. We have started making our own custom made parasails and the gear
+                that goes with it, such as harnesses and tripleizers. We can proudly say that our guests are flying
+                exclusively on our own parasailing equipment.
+                {{--<a>Read More</a>--}}
               </div>
             </div>
           </div>
@@ -80,15 +84,21 @@
 
   </div> <!-- /.about-us -->
 
-  <hr>
-
-  <div class="section-home about-us fadeIn animated">
+  <div class="section-home fadeIn animated" style="background-color: #aae2f7;">
 
     <div class="container">
 
       <div class="row">
 
-        <h2 class="title-style-1">Media<span class="title-under"></span></h2>
+        <div class="col-md-6 col-sm-12 home-info">
+
+          <div class="video-text">
+            <strong>Still not sure what to do on your vacation?</strong>
+            <br>
+            <strong>Watch our video and get pumped to try out our activities!</strong>
+          </div>
+
+        </div>
 
         <div class="col-md-6 col-sm-12 home-info">
 
@@ -101,62 +111,55 @@
 
         </div>
 
-        <div class="col-md-6 col-sm-12 home-info">
-
-          <div class="animate-onscroll fadeIn">
-            <img src="images/parasail1.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-
       </div>
 
     </div>
 
   </div> <!-- /.about-us -->
 
-  <hr>
+  <?php //todo: UNCOMMENT kada postovi budu gotovi! ?>
 
-  <div class="section-home home-reasons">
+  {{--<div class="section-home home-reasons">--}}
 
-    <div class="container">
+    {{--<div class="container">--}}
 
-      <div class="row">
+      {{--<div class="row">--}}
 
-        <h2 class="title-style-1">Latest news <span class="title-under"></span></h2>
+        {{--<h2 class="title-style-1">Latest news <span class="title-under"></span></h2>--}}
 
-        @foreach($posts as $post)
+        {{--@foreach($posts as $post)--}}
 
-          <div class="col-md-6 col-sm-6">
+          {{--<div class="col-md-6 col-sm-6">--}}
 
-            <a href="{{ $post->singleViewUrl() }}">
+            {{--<a href="{{ $post->singleViewUrl() }}">--}}
 
-              <div class="reasons-col animate-onscroll fadeIn">
+              {{--<div class="reasons-col animate-onscroll fadeIn">--}}
 
-                <img src="images/reasons/we-fight-togother.jpg" alt="">
+                {{--<img src="images/reasons/we-fight-togother.jpg" alt="">--}}
 
-                <div class="reasons-titles">
+                {{--<div class="reasons-titles">--}}
 
-                  <h3 class="reasons-title">{{ $post->title }}</h3>
+                  {{--<h3 class="reasons-title">{{ $post->title }}</h3>--}}
 
-                </div>
+                {{--</div>--}}
 
-                <div class="on-hover hidden-xs">
-                  {{ substr($post->body, 0, 800) }}
-                  {{ strlen($post->body) > 700 ? '...' : '' }}
-                </div>
+                {{--<div class="on-hover hidden-xs">--}}
+                  {{--{{ substr($post->body, 0, 800) }}--}}
+                  {{--{{ strlen($post->body) > 700 ? '...' : '' }}--}}
+                {{--</div>--}}
 
-              </div>
+              {{--</div>--}}
 
-            </a>
+            {{--</a>--}}
 
-          </div>
+          {{--</div>--}}
 
-        @endforeach
+        {{--@endforeach--}}
 
-      </div>
+      {{--</div>--}}
 
-    </div>
+    {{--</div>--}}
 
-  </div> <!-- /.home-reasons -->
+  {{--</div> <!-- /.home-reasons -->--}}
 
 @endsection

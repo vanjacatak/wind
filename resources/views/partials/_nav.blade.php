@@ -11,8 +11,10 @@
           <div class="col-sm-6 col-xs-12">
 
             <ul class="list-unstyled list-inline header-contact">
-              <li> <i class="fa fa-phone"></i> <a href="tel:">+385 92 125 1507 </a> </li>
-              <li> <i class="fa fa-envelope"></i> <a href="mailto:">ADD MAIL</a> </li>
+              <li> <i class="fa fa-phone"></i> <a href="tel:+385 92 125 1507">+385 92 125 1507 </a> </li>
+              <li> <i class="fa fa-envelope"></i>
+                <a href="mailto:windwatersports@gmail.com">windwatersports@gmail.com</a>
+              </li>
             </ul> <!-- /.header-contact  -->
 
           </div>
@@ -57,7 +59,7 @@
           </button>
 
           <a class="navbar-brand" href="index.html">
-            <img src="images/sadaka-logo.png" alt="">
+            <img src="images/logo/logo-small2.jpg" alt="">
           </a>
 
         </div>
@@ -68,17 +70,19 @@
 
             <li><a class="{{ Request::is('/') ? 'is-active' : '' }}" href="/">HOME</a></li>
             <li><a class="{{ Request::is('about') ? 'is-active' : '' }}" href="/about">ABOUT</a></li>
-            <li class="has-child"><a href="#">SERVICES</a>
+            <?php //todo: uncomment when service part is done! ?>
+            {{--<li class="has-child"><a href="#">SERVICES</a>--}}
 
-              <ul class="submenu">
-                <li class="submenu-item"><a href="#">Causes list </a></li>
-                <li class="submenu-item"><a href="#">Single cause </a></li>
-                <li class="submenu-item"><a href="#">Single cause </a></li>
-                <li class="submenu-item"><a href="#">Single cause </a></li>
-              </ul>
+              {{--<ul class="submenu">--}}
+                {{--<li class="submenu-item"><a href="#">Causes list </a></li>--}}
+                {{--<li class="submenu-item"><a href="#">Single cause </a></li>--}}
+                {{--<li class="submenu-item"><a href="#">Single cause </a></li>--}}
+                {{--<li class="submenu-item"><a href="#">Single cause </a></li>--}}
+              {{--</ul>--}}
 
-            </li>
-            <li><a href="#">GALLERY</a></li>
+            {{--</li>--}}
+            <?php //todo: uncomment when gallery is done! ?>
+            {{--<li><a href="#">GALLERY</a></li>--}}
             <li><a class="{{ Request::is('contact') ? 'is-active' : '' }}" href="/contact">CONTACT</a></li>
 
           </ul>

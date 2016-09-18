@@ -6,7 +6,6 @@
 
 @include('partials._headerImage', [
 'title' => 'Contact us',
-'body' => 'Hipster IpZum',
 ])
 
 
@@ -64,7 +63,7 @@
 
           <h2 class="title-style-2"> WIND WATERSPORTS CONTACTS <span class="title-under"></span></h2>
           <p>
-            <b>Sadaka</b> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla .
+            If you have any questions, feel free to contact us.
           </p>
 
           <div class="contact-items">

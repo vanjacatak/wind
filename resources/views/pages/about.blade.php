@@ -4,18 +4,9 @@
 
 @section('content')
 
-  <div class="page-heading text-center">
-
-    <div class="container zoomIn animated">
-
-      <h1 class="page-title">ABOUT US <span class="title-under"></span></h1>
-      <p class="page-description">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit Necessitatibus.
-      </p>
-
-    </div>
-
-  </div>
+@include('partials._headerImage', [
+'title' => 'About us',
+])
 
   <div class="main-container">
 
@@ -25,7 +16,7 @@
 
         <div class="col-md-6">
 
-          <img src="images/about-us.jpg" alt="" class="img-responsive">
+          <img src="images/aboutus2.jpg" alt="" class="img-responsive">
 
         </div>
 
@@ -56,103 +47,12 @@
           </p>
 
           <p>
-            Wind Watersports
+            <b>Wind Watersports</b>
           </p>
 
         </div>
 
       </div> <!-- /.row -->
-
-      <div class="section-home about-us">
-
-
-        <div class="row">
-
-          <div class="col-md-3 col-sm-6">
-
-            <div class="about-us-col">
-
-              <div class="col-icon-wrapper">
-                <img src="images/icons/our-mission-icon.png" alt="">
-              </div>
-              <h3 class="col-title">our mission</h3>
-              <div class="col-details">
-
-                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
-              </div>
-              <a href="#" class="btn btn-primary"> Read more </a>
-
-            </div>
-
-          </div>
-
-
-          <div class="col-md-3 col-sm-6">
-
-            <div class="about-us-col">
-
-              <div class="col-icon-wrapper">
-                <img src="images/icons/make-donation-icon.png" alt="">
-              </div>
-              <h3 class="col-title">Make donations</h3>
-              <div class="col-details">
-
-                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
-              </div>
-              <a href="#" class="btn btn-primary"> Read more </a>
-
-            </div>
-
-          </div>
-
-
-          <div class="col-md-3 col-sm-6">
-
-            <div class="about-us-col">
-
-              <div class="col-icon-wrapper">
-                <img src="images/icons/help-icon.png" alt="">
-              </div>
-              <h3 class="col-title">Help & support</h3>
-              <div class="col-details">
-
-                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
-              </div>
-              <a href="#" class="btn btn-primary"> Read more </a>
-
-            </div>
-
-          </div>
-
-
-          <div class="col-md-3 col-sm-6">
-
-            <div class="about-us-col">
-
-              <div class="col-icon-wrapper">
-                <img src="images/icons/programs-icon.png" alt="">
-              </div>
-              <h3 class="col-title">our programs</h3>
-              <div class="col-details">
-
-                <p>Lorem ipsum dolor sit amet consect adipisscin elit proin vel lectus ut eta esami vera dolor sit amet consect</p>
-
-              </div>
-              <a href="#" class="btn btn-primary"> Read more </a>
-
-            </div>
-
-          </div>
-
-
-
-        </div> <!-- /.row -->
-
-
-      </div>
 
     </div> <!-- /.about-us -->
 

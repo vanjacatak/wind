@@ -181,7 +181,9 @@ div.dark_rounded #pp_full_res .pp_inline,div.dark_square #pp_full_res .pp_inline
 ========================================================================== */
 body {
   font-family: "Open sans", sans-serif;
-  color:   rgba(2, 2, 2, 1);
+  color:   rgb(128, 128, 128);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 h1,
@@ -341,7 +343,7 @@ a:hover, a:focus, a:active {
 }
 
 .section-home {
-  margin: 30px 0;
+  margin-top: 30px;
 }
 
 /* home/ about-us 
@@ -404,6 +406,11 @@ a:hover, a:focus, a:active {
     height: 100%;
 }
 
+.video-text {
+    font-size: 38px;
+    color: white;
+    text-align: center;
+}
 /* home/reasons 
 ================================= */
 .home-reasons {
@@ -710,7 +717,7 @@ a:hover, a:focus, a:active {
 /* Pages 
 ================================= */
 .page-heading {
-  background: url('../../images/heading-bg.jpg?1428795369') no-repeat center;
+  background: url('../../images/staticna.jpg?1428795369') no-repeat center;
   background-size: cover;
   min-height: 190px;
   color: #fff;
@@ -816,7 +823,7 @@ form .alert {
   text-align: center;
   text-transform: uppercase;
   font-size: 26px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .title-style-2 {
@@ -832,6 +839,12 @@ form .alert {
 .title-style-2 .title-under:after {
   margin: 0;
   margin-top: 10px;
+}
+
+.title-style-3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .title-under {
