@@ -139,7 +139,7 @@
 {{--</footer> <!-- main-footer -->--}}
 
 <footer class="mainFooter">
-
+<?php //todo: staviti dobar logo jer se slika nevidi kako treba. ?>
   <div class="container">
     <div class="row">
 
@@ -147,7 +147,7 @@
 
         <div class="logo">
           <a href="/">
-            <img src="images/sadaka-logo.png" alt="Wind-Watersports">
+            {{--<img src="images/sadaka-logo.png" alt="Wind-Watersports">--}}
           </a>
         </div>
 
