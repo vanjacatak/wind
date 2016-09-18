@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
   <head>
     @include('partials._head')
 
@@ -10,15 +10,11 @@
 
     @include('partials._nav')
 
-    <div class="container">
+    @include('partials._messages')
 
-      @include('partials._messages')
+    @yield('content')
 
-      @yield('content')
-
-      @include('partials._footer')
-
-    </div> <!-- End of container -->
+    @include('partials._footer')
 
     @include('partials._javascript')
 

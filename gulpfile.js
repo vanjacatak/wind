@@ -17,7 +17,11 @@ elixir(function(mix) {
 
 elixir(function(mix) {
   mix.styles([
-    'normalize.css',
-    'main.css'
-  ], 'public/css/main/main.css');
+    'prettyPhoto.css',
+    'style.css'
+  ], 'public/css/main/app.css');
+
+  mix.scripts([
+    'main.js',
+  ], 'public/js/main/app.js');
 });

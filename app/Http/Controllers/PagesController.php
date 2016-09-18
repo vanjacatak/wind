@@ -11,7 +11,7 @@ class PagesController extends Controller {
   public function getIndex () {
 
     $posts = Post::orderBy('id', 'asc')
-      ->take(5)
+      ->take(2)
       ->get();
 
     return view('pages.welcome', [
